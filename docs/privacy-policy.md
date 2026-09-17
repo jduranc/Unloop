@@ -1,117 +1,102 @@
 ### 📜 Privacy Policy
 
-Effective Date: October 17, 2025
-App Name: Clip-it
-Developer: Jose Duran
+# Privacy Policy
 
+**Last Updated:** September 16, 2026
 
-#### 1. Introduction
+At **Unloop** (“we,” “our,” or “us”), we believe that your digital wellbeing tools should protect your personal privacy just as fiercely as they protect your focus. 
 
-Your privacy is important to us. This Privacy Policy explains how Clip-it handles user information.
-Our app does not collect, store, or share any personal data from users. We only use third-party services, such as Google Analytics and Google Ads (AdMob), which may collect limited information to provide analytics and advertising.
+This Privacy Policy explains how Unloop handles data when you download, install, and use our iOS mobile application and related services (collectively, the “Services”).
 
-By using Clip-it, you agree to this Privacy Policy.
+---
 
+### Core Privacy Principles
 
-#### 2. Information We Do Not Collect
+- **No Data Selling:** We do not sell, rent, monetize, or trade your personal information to third parties or data brokers. Ever.
+- **Zero Ads & Zero Tracking:** Unloop contains no advertising frameworks, ad networks, or cross-app tracking identifiers (like IDFA).
+- **Zero Access to Browsing or App Usage:** We do not—and technically cannot—view, collect, or store your browsing history, message contents, screen activities, or the specific apps you choose to shield.
+- **100% On-Device Enforcement:** App shielding and Screen Time controls execute locally on your iPhone using Apple's privacy-preserving system frameworks.
 
-We do not:
-	•	Collect or store personal data such as your name, email, or location.
-	•	Access, read, or store any content you create within the app (e.g., your clips, tags, or notes).
-	•	Create or maintain user accounts.
-	•	Use or store device identifiers beyond what is automatically collected by Google’s SDKs.
+---
 
+### 1. Information We Do NOT Collect
 
-#### 3. Third-Party Services
+Because Unloop is built on Apple’s native Screen Time frameworks (`FamilyControls` and `ManagedSettings`), your usage data never leaves your device:
 
-We use third-party SDKs to improve user experience and measure app performance:
-	•	Google Analytics for Firebase – used for anonymous usage statistics (e.g., screen views, device type).
-	•	Google Ads / AdMob – used to display ads. These services may collect limited information such as your device ID, IP address, and app usage to provide relevant ads and detect fraud.
+- **No App Usage or Browsing Data:** When you select apps, categories, or websites to block, Apple handles these selections securely via opaque system tokens. Unloop’s code and servers cannot inspect your web history or see what you do within blocked apps.
+- **No NFC Tag Tracking:** Generic third-party NFC tags you tap to initiate or end focus sessions are processed locally by your iPhone. We do not register, track, or record NFC hardware serial numbers or location tags on external servers.
+- **No Exact Geolocation Tracking:** When you configure Location Zones (geofencing) for libraries, offices, or study spots, location monitoring is evaluated locally on-device via Apple’s CoreLocation framework. Your GPS coordinates, movements, and physical locations are never uploaded or tracked by us.
+- **No Financial or Payment Data:** Any subscription or lifetime purchase is processed directly by Apple through In-App Purchases. We never receive or store your credit card number, bank details, or billing address.
 
-Each third-party provider has its own privacy policy:
-	•	Google Privacy Policy
-	•	Firebase Privacy Policy
+---
 
-We encourage you to review these policies to understand how these services handle your data.
+### 2. Information We Collect (Performance & Diagnostics Only)
 
+The only data we collect is minimal, aggregated, and non-identifiable telemetry collected via **Firebase Analytics and Crashlytics** (provided by Google LLC) strictly to diagnose technical faults, measure overall application stability, and optimize app performance:
 
-#### 4. Data Retention and Storage
+- **Crash Diagnostics & Error Logs:** Technical information related to crashes, memory panics, operating system errors, and app state at the time of a failure.
+- **Device & System Metadata:** Generic, non-personally identifiable information such as device model (e.g., iPhone 15 Pro), iOS version (e.g., iOS 18), app version, language setting, and general session duration.
+- **Aggregated App Performance:** Anonymous event metrics (such as whether an onboarding step was completed or if a focus session was initiated) to understand feature reliability and identify bugs.
 
-Clip-it does not store or retain any user data on its servers.
-All analytics and advertising data are processed and stored by Google according to their own policies.
+This technical telemetry is used exclusively for engineering diagnostics, maintaining app stability, and fixing software bugs.
 
+---
 
-#### 5. Children’s Privacy
+### 3. How We Use Technical Data
 
-Our app does not knowingly collect or store personal information from children under 13 (or under 16 in the EU).
-If you believe a child has provided personal data through one of our third-party providers, please contact Google to request removal under their privacy process.
+Any diagnostic data collected through Firebase is used solely to:
+- Detect, investigate, and prevent technical issues and application crashes.
+- Monitor overall app performance, launch times, and API responsiveness.
+- Improve UX workflows and identify features that require performance optimizations.
 
-#### 6. Data Protection Laws Compliance
+We do **not** use this information to profile individual users, serve targeted content, or link crash logs to your real-world identity.
 
-GDPR (European Union)
+---
 
-We comply with the General Data Protection Regulation (GDPR).
-Because Clip-it does not process or store personal data, no Data Protection Officer is required.
-Google Analytics and AdMob act as independent data controllers for any data they collect.
+### 4. Third-Party Service Providers
 
-CCPA (California, USA)
+We intentionally minimize third-party software dependencies. The only external services involved in the operation of Unloop are:
 
-Under the California Consumer Privacy Act (CCPA), we confirm that Clip-it does not sell or share user data.
-Users have the right to opt out of personalized advertising through their device settings or by following Google’s opt-out instructions.
+- **Apple Inc. (App Store & In-App Purchases):** Manages licensing, digital downloads, app distribution, and subscription payments under Apple's standard privacy policies.
+- **Firebase / Google LLC (Analytics & Crashlytics):** Provides technical telemetry, crash reporting, and aggregated performance diagnostics. Data sent to Firebase is governed by Google’s Privacy and Security standards.
 
-LGPD (Brazil)
+---
 
-We comply with the Lei Geral de Proteção de Dados (LGPD).
-We do not process or retain personal data.
+### 5. Parental Controls & Children’s Privacy
 
-Other Regions (Asia, Canada, etc.)
+Unloop includes parental control features designed to help parents and guardians enforce healthy digital habits, restrict mature content, or block unauthorized installations on family devices.
 
-We follow equivalent data protection principles, ensuring no collection, retention, or sharing of user data beyond what is handled by Google’s services.
+- Unloop does not knowingly collect personally identifiable information from children under the age of 13 (or applicable local age threshold).
+- All restrictions configured under parental control modes operate locally on the managed device via Apple's `FamilyControls` framework.
+- If you believe a child has provided us with personal information via support correspondence or feedback, please contact us immediately, and we will delete such information promptly.
 
-#### 7. Your Privacy Choices
+---
 
-You can manage or opt out of personalized ads:
-	•	In your device settings under Privacy → Ads → Limit Ad Tracking (iOS).
-	•	By visiting Google Ad Settings.
+### 6. Data Retention and Security
 
-If you disable ad personalization, you will still see ads, but they may be less relevant.
+- **Local Storage:** Your focus schedules, custom blocking lists, and NFC pairing preferences are stored locally in your iPhone’s secure sandboxed storage and Keychain. Deleting the application removes this local data.
+- **Diagnostic Telemetry:** Crash reports and aggregated telemetry held in Firebase are retained only for standard diagnostic cycles and automatically expire according to Firebase’s retention schedules.
 
-#### 8. Security
+---
 
-Since we do not handle personal data, we do not store or transmit sensitive information.
-All communication with Google’s services is encrypted (HTTPS).
+### 7. Your Rights and Choices
 
-#### 🇫🇷 Addendum for Users in France
+- **Telemetry Opt-Out:** You can control analytical tracking or crash reporting through your device’s native iOS privacy settings (such as disabling "Share iPhone & Watch Analytics" with developers under **Settings > Privacy & Security > Analytics & Improvements**).
+- **Location Permissions:** You can revoke or modify Location Zone permissions at any time via **Settings > Privacy & Security > Location Services > Unloop**.
+- **Screen Time Permissions:** You can grant, modify, or revoke Screen Time access at any time via iOS Settings.
 
-##### Compliance with French Law  
-We also comply with France's **Loi Informatique et Libertés** (French Data Protection Act) and the rules and guidance issued by the French Data Protection Authority (**CNIL**).  
+---
 
-##### Security & Encryption  
-While our app does **not store personal data**, all communication with third-party services (e.g. Google Analytics, AdMob) is transmitted over encrypted channels (TLS/HTTPS). We commit to using appropriate technical and organizational safeguards in accordance with French and EU data protection requirements.
+### 8. Changes to This Privacy Policy
 
-To the extent required under French law, we declare the use of encryption technology and comply with any local cryptographic regulatory requirements.
+We may update this Privacy Policy from time to time to reflect product updates or technical changes. Any revisions will be reflected with an updated "Last Updated" date at the top of this document. We encourage you to review this policy periodically.
 
-##### Data Breach & Notification  
-In the unlikely event of a breach involving personal data (even though we do not hold such data), we will follow applicable French and EU rules, including notifying the CNIL within 72 hours when required.
+---
 
-##### Cookies, Tracking & Consent  
-When offering services in France, we comply with local ePrivacy / electronic communications laws. If any identifiers, cookies, or trackers are used (e.g. for ad purposes), we ensure the French user experience is consistent with consent requirements and transparency obligations.
+### 9. Contact Us
 
-##### Right to Lodge Complaints  
-French users may contact the CNIL (Commission Nationale de l’Informatique et des Libertés) to lodge a complaint about processing of their personal data. CNIL is the supervisory authority in France.
+If you have questions, feedback, or concerns regarding this Privacy Policy or Unloop's privacy practices, please contact us at:
 
-##### Enforcement & Liability 
-If our practices were found deficient under French or EU law, the CNIL may impose enforcement actions, corrective orders, or fines (up to €20 million or 4 % of global turnover). We commit to addressing any issues promptly and in good faith.
-
-#### 9. Changes to This Policy
-
-We may update this Privacy Policy periodically.
-Any updates will be posted within the app and/or on our website, with the revised date shown above.
-
-#### 10. Contact
-
-If you have questions about this Privacy Policy or your privacy rights, please contact:
-
-Jose Duran
+Luis Duran
 📧 luisdurancota@gmail.com
 🇺🇸 Mercer Island, WA, USA
