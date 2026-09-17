@@ -60,3 +60,9 @@ Unloop is designed for iPhone and iPad. App Store availability will be linked he
 Attention is your most valuable asset. Unloop helps you replace automatic checking with deliberate choices, using both digital boundaries and physical friction to make focused living easier.
 
 **Escape the endless loop. Reclaim your time.**
+
+#### Legal
+See our [Privacy Policy](https://jduranc.github.io/Unloop/docs/privacy-policy.html) for details.
+See our [Terms and Conditions](https://jduranc.github.io/Unloop/docs/terms-and-conditions.html) for details.
+
+
