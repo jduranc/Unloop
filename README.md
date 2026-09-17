@@ -61,7 +61,7 @@ Attention is your most valuable asset. Unloop helps you replace automatic checki
 
 **Escape the endless loop. Reclaim your time.**
 
-#### Legal
+## Legal
 See our [Privacy Policy](https://jduranc.github.io/Unloop/docs/privacy-policy.html) for details.
 See our [Terms and Conditions](https://jduranc.github.io/Unloop/docs/terms-and-conditions.html) for details.
 
