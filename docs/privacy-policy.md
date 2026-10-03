@@ -98,5 +98,5 @@ We may update this Privacy Policy from time to time to reflect product updates o
 If you have questions, feedback, or concerns regarding this Privacy Policy or Unloop's privacy practices, please contact us at:
 
 Jose Duran
-📧 [Email]([rays-mouse01@icloud.com)
+📧 [Email](mailto:rays-mouse01@icloud.com)
 🇺🇸 Mercer Island, WA, USA
