@@ -116,4 +116,4 @@ For questions, support, or legal inquiries concerning these Terms of Service, co
 
 * **App:** Unloop
 * **Email:** [Email](mailto:rays-mouse01@icloud.com)
-* **Developer/Entity:** Luis Duran
+* **Developer:** Jose Duran
