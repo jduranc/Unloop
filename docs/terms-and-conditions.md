@@ -115,5 +115,5 @@ Because you acquired Unloop from the Apple App Store, you acknowledge that:
 For questions, support, or legal inquiries concerning these Terms of Service, contact:
 
 * **App:** Unloop
-* **Email:** [Email]([rays-mouse01@icloud.com)
+* **Email:** [Email]([rays-mouse01@icloud.com])
 * **Developer/Entity:** Luis Duran
