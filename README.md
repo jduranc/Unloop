@@ -54,6 +54,7 @@ Your focus settings belong to you.
 ## App Store
 
 Unloop is designed for iPhone and iPad.
+
 [![Download on the App Store](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)]([link](https://apps.apple.com/app/apple-store/id6811465654?pt=95940123&ct=web&mt=8))
 
 ## Philosophy
