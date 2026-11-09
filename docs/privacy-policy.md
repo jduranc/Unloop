@@ -2,113 +2,101 @@
 
 # Privacy Policy
 
-**Last Updated:** November 8, 2026
+**Last Updated:** September 16, 2026
 
-At **NextUp** (“we,” “our,” or “us”), we believe that keeping track of life’s most important milestones should never come at the expense of your personal privacy.
+At **Unloop** (“we,” “our,” or “us”), we believe that your digital wellbeing tools should protect your personal privacy just as fiercely as they protect your focus.
 
-This Privacy Policy explains how NextUp handles data across our iOS, iPadOS, and watchOS applications and related widgets (collectively, the “Services”).
+This Privacy Policy explains how Unloop handles data when you download, install, and use our iOS mobile application and related services (collectively, the “Services”).
 
 ---
 
 ### Core Privacy Principles
 
-- **No Data Selling:** We do not sell, rent, monetize, or trade your personal information or countdown events to third parties or data brokers. Ever.
-- **Zero Access to Your Events & Reminders:** We do not—and cannot—view, read, collect, or store your countdown titles, notes, dates, tags, or imported calendar items on our servers.
-- **Local-First & Private Sync:** Your events are saved directly on your device. When synchronization is enabled, it transfers securely through your personal Apple iCloud account via CloudKit/CoreData, never touching private developer servers.
-- **Transparent Advertising Disclosures:** The free version of NextUp displays advertisements served by Google AdMob. While NextUp itself collects no personal tracking data, Google AdMob may collect and process device-level identifiers to serve and measure ads in accordance with Google's policies.
+- **No Data Selling:** We do not sell, rent, monetize, or trade your personal information to third parties or data brokers. Ever.
+- **Zero Ads & Zero Tracking:** Unloop contains no advertising frameworks, ad networks, or cross-app tracking identifiers (like IDFA).
+- **Zero Access to Browsing or App Usage:** We do not—and technically cannot—view, collect, or store your browsing history, message contents, screen activities, or the specific apps you choose to shield.
+- **100% On-Device Enforcement:** App shielding and Screen Time controls execute locally on your iPhone using Apple's privacy-preserving system frameworks.
 
 ---
 
 ### 1. Information We Do NOT Collect
 
-NextUp is built on a local-first architecture and native Apple frameworks:
+Because Unloop is built on Apple’s native Screen Time frameworks (`FamilyControls` and `ManagedSettings`), your usage data never leaves your device:
 
-- **No Event Content Access:** When you create countdowns, count-ups, reminders, or tags, that data is stored locally within sandboxed on-device storage and shared App Group storage (for Lock Screen, Home Screen, and Apple Watch widgets). We have no access to your event names, target dates, or personal notes.
-- **No Calendar Data Harvesting:** If you choose to import events from Apple Calendar, access is requested via Apple’s native `EventKit` framework. All processing occurs entirely on-device; we never extract, upload, or transmit your calendar database to external servers.
-- **No Cloud Data Snooping:** If you use NextUp Pro’s iCloud sync, your countdown data syncs privately across your iPhone, iPad, and Apple Watch through Apple’s encrypted iCloud infrastructure. We maintain no external databases containing your synchronized events.
-- **No Location Tracking:** NextUp does not request, collect, or monitor your GPS coordinates or physical location.
-- **No Financial or Payment Data:** Upgrades to NextUp Pro and in-app purchases are handled exclusively by Apple via the App Store. We never receive or store your credit card details, bank information, or billing address.
-
----
-
-### 2. Third-Party Advertising (Google AdMob)
-
-The free version of NextUp uses **Google AdMob** to display mobile advertisements. NextUp Pro subscribers receive a 100% ad-free experience.
-
-#### What We Collect vs. What Google May Collect
-- **NextUp does NOT collect or store your advertising data:** We do not store ad identifiers, personal profiles, or advertising history on our servers.
-- **Data collected and processed by Google AdMob:** When ads are requested or displayed, Google AdMob’s Software Development Kit (SDK) may automatically collect and process certain device and interaction data to serve, measure, and protect against fraudulent ad activity. This information may include:
-  - **Device Identifiers:** IP address, mobile advertising identifiers (such as Apple's Identifier for Advertisers / IDFA, subject to your tracking permissions), or unique device IDs.
-  - **Usage & Interaction Data:** Ad views, clicks, impressions, and app interaction data related to ad performance.
-  - **Diagnostic Data:** Ad load times, error logs, and performance metrics.
-
-For detailed information on how Google processes, stores, and protects data collected through its advertising services, please review:
-- [Google Privacy & Terms — Advertising](https://policies.google.com/technologies/ads)
-- [How Google Uses Information from Sites or Apps That Use Our Services](https://policies.google.com/technologies/partner-sites)
-- [Google Privacy Policy](https://policies.google.com/privacy)
+- **No App Usage or Browsing Data:** When you select apps, categories, or websites to block, Apple handles these selections securely via opaque system tokens. Unloop’s code and servers cannot inspect your web history or see what you do within blocked apps.
+- **No NFC Tag Tracking:** Generic third-party NFC tags you tap to initiate or end focus sessions are processed locally by your iPhone. We do not register, track, or record NFC hardware serial numbers or location tags on external servers.
+- **No Exact Geolocation Tracking:** When you configure Location Zones (geofencing) for libraries, offices, or study spots, location monitoring is evaluated locally on-device via Apple’s CoreLocation framework. Your GPS coordinates, movements, and physical locations are never uploaded or tracked by us.
+- **No Financial or Payment Data:** Any subscription or lifetime purchase is processed directly by Apple through In-App Purchases. We never receive or store your credit card number, bank details, or billing addresses.
 
 ---
 
-### 3. Performance & Diagnostics Telemetry
+### 2. Information We Collect (Performance & Diagnostics Only)
 
-In addition to advertising services, we collect minimal, aggregated, and non-identifiable telemetry via **Firebase Analytics and Crashlytics** (provided by Google LLC) strictly to diagnose technical faults, measure overall application stability, and optimize app performance:
+The only data we collect is minimal, aggregated, and non-identifiable telemetry collected via **Firebase Analytics and Crashlytics** (provided by Google LLC) strictly to diagnose technical faults, measure overall application stability, and optimize app performance:
 
-- **Crash Diagnostics & Error Logs:** Technical information regarding crashes, memory panics, operating system errors, and app state at the time of a failure.
-- **Device & System Metadata:** Generic, non-personally identifiable information such as device model (e.g., iPhone 16 Pro, Apple Watch Series 10), operating system version (e.g., iOS 18, watchOS 11), app version, and system language.
-- **Aggregated App Performance:** Anonymous event metrics (such as widget reload performance, whether an onboarding step was completed, or general feature reliability) to identify performance bottlenecks and software bugs.
+- **Crash Diagnostics & Error Logs:** Technical information related to crashes, memory panics, operating system errors, and app state at the time of a failure.
+- **Device & System Metadata:** Generic, non-personally identifiable information such as device model (e.g., iPhone 15 Pro), iOS version (e.g., iOS 18), app version, language setting, and general session duration.
+- **Aggregated App Performance:** Anonymous event metrics (such as whether an onboarding step was completed or if a focus session was initiated) to understand feature reliability and identify bugs.
 
-This diagnostic telemetry is used solely to maintain app stability, prevent crashes, and fix software bugs. We do not use this information to profile individual users or link crash logs to your personal identity.
+This technical telemetry is used exclusively for engineering diagnostics, maintaining app stability, and fixing software bugs.
+
+---
+
+### 3. How We Use Technical Data
+
+Any diagnostic data collected through Firebase is used solely to:
+- Detect, investigate, and prevent technical issues and application crashes.
+- Monitor overall app performance, launch times, and API responsiveness.
+- Improve UX workflows and identify features that require performance optimizations.
+
+We do **not** use this information to profile individual users, serve targeted content, or link crash logs to your real-world identity.
 
 ---
 
 ### 4. Third-Party Service Providers
 
-The third-party services involved in the operation of NextUp include:
+We intentionally minimize third-party software dependencies. The only external services involved in the operation of Unloop are:
 
-- **Apple Inc. (App Store, In-App Purchases & iCloud):** Manages licensing, digital downloads, app distribution, in-app purchases, and optional private iCloud data sync under Apple’s standard privacy policies and terms.
-- **Google AdMob (Google LLC):** Serves advertisements in the free version of the app and reports aggregated ad delivery metrics.
+- **Apple Inc. (App Store & In-App Purchases):** Manages licensing, digital downloads, app distribution, and subscription payments under Apple's standard privacy policies.
 - **Firebase / Google LLC (Analytics & Crashlytics):** Provides technical telemetry, crash reporting, and aggregated performance diagnostics. Data sent to Firebase is governed by Google’s Privacy and Security standards.
 
 ---
 
-### 5. Children’s Privacy
+### 5. Parental Controls & Children’s Privacy
 
-NextUp is a general-audience productivity utility rated 4+:
+Unloop includes parental control features designed to help parents and guardians enforce healthy digital habits, restrict mature content, or block unauthorized installations on family devices.
 
-- We do not knowingly collect or solicit personally identifiable information from children under the age of 13 (or applicable local age threshold).
-- All event data and countdown calculations are processed and stored locally on the user's device or in their private iCloud account.
-- If you believe a child has provided us with personal information via customer support correspondence, please contact us immediately, and we will delete such information promptly.
+- Unloop does not knowingly collect personally identifiable information from children under the age of 13 (or applicable local age threshold).
+- All restrictions configured under parental control modes operate locally on the managed device via Apple's `FamilyControls` framework.
+- If you believe a child has provided us with personal information via support correspondence or feedback, please contact us immediately, and we will delete such information promptly.
 
 ---
 
 ### 6. Data Retention and Security
 
-- **Local & iCloud Storage:** Your countdowns, reminders, tags, and widget configurations are stored in your device’s secure sandboxed storage, App Group container, and your private iCloud account. Deleting the application removes your local data.
-- **Advertising & Diagnostic Telemetry:** Data processed by Google AdMob and Firebase is governed and retained in accordance with Google's standard data retention schedules.
+- **Local Storage:** Your focus schedules, custom blocking lists, and NFC pairing preferences are stored locally in your iPhone’s secure sandboxed storage and Keychain. Deleting the application removes this local data.
+- **Diagnostic Telemetry:** Crash reports and aggregated telemetry held in Firebase are retained only for standard diagnostic cycles and automatically expire according to Firebase’s retention schedules.
 
 ---
 
 ### 7. Your Rights and Choices
 
-- **Ad Tracking & Personalization:** On iOS 14.5 and later, you can manage whether apps can request permission to track you for targeted advertising under **Settings > Privacy & Security > Tracking**. You can also manage personalized ad preferences in your [Google My Ad Center](https://myadcenter.google.com/).
-- **Ad-Free Experience:** Upgrading to NextUp Pro completely removes all AdMob banner, interstitial, and promotional ad placements.
-- **Telemetry Opt-Out:** You can control diagnostic telemetry reporting through your device’s native iOS privacy settings (under **Settings > Privacy & Security > Analytics & Improvements**).
-- **Calendar Access:** You can grant, modify, or revoke NextUp's access to Apple Calendar at any time via **Settings > Privacy & Security > Calendars > NextUp**.
-- **Notifications:** You can manage or disable reminder notifications at any time via **Settings > Notifications > NextUp**.
-- **iCloud Sync:** You can disable iCloud synchronization for NextUp at any time in your device's Apple Account settings (**Settings > [Your Name] > iCloud**).
+- **Telemetry Opt-Out:** You can control analytical tracking or crash reporting through your device’s native iOS privacy settings (such as disabling "Share iPhone & Watch Analytics" with developers under **Settings > Privacy & Security > Analytics & Improvements**).
+- **Location Permissions:** You can revoke or modify Location Zone permissions at any time via **Settings > Privacy & Security > Location Services > Unloop**.
+- **Screen Time Permissions:** You can grant, modify, or revoke Screen Time access at any time via iOS Settings.
 
 ---
 
 ### 8. Changes to This Privacy Policy
 
-We may update this Privacy Policy from time to time to reflect product updates, new platforms, or regulatory requirements. Any revisions will be reflected with an updated "Last Updated" date at the top of this document. We encourage you to review this policy periodically.
+We may update this Privacy Policy from time to time to reflect product updates or technical changes. Any revisions will be reflected with an updated "Last Updated" date at the top of this document. We encourage you to review this policy periodically.
 
 ---
 
 ### 9. Contact Us
 
-If you have questions, feedback, or concerns regarding this Privacy Policy or NextUp's privacy practices, please contact us at:
+If you have questions, feedback, or concerns regarding this Privacy Policy or Unloop's privacy practices, please contact us at:
 
-Jose Duran  
-📧 [Email](mailto:rays-mouse01@icloud.com)  
+Jose Duran
+📧 [Email](mailto:rays-mouse01@icloud.com)
 🇺🇸 Mercer Island, WA, USA
