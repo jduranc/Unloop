@@ -1,119 +1,127 @@
 # Terms of Service
 
-**Last Updated:** September 16, 2026
+**Last Updated:** November 8, 2026
 
-Welcome to Unloop (“we,” “our,” or “us”). These Terms of Service (“Terms”) govern your download, access, and use of the Unloop mobile application available on the Apple App Store, alongside our related software and online services (collectively, the “Services”).
+Welcome to **NextUp** (“we,” “our,” or “us”). These Terms of Service (“Terms”) govern your download, access, and use of the NextUp mobile and watchOS applications available on the Apple App Store, alongside our widgets and related services (collectively, the “Services”).
 
-> **What this means:** By downloading or using Unloop, you are entering into a legally binding agreement with us. Please read these terms carefully.
+> **What this means:** By downloading, installing, or using NextUp, you enter into a legally binding agreement with us. Please read these terms carefully.
 
 ---
 
 ### 1. Acceptance and Eligibility
-By downloading, accessing, or using Unloop, you confirm that:
+By downloading, accessing, or using NextUp, you confirm that:
 - You are at least 18 years of age (or the age of legal majority in your jurisdiction); or
-- If you are between the ages of 13 and 17, you are accessing the Services solely with the active consent and supervision of a parent or legal guardian who agrees to be bound by these Terms; or
-- If you are a parent or legal guardian enabling parental supervision or setting device limits for a minor child, you assume full legal and financial responsibility for their use of the Services.
+- If you are between 13 and 17 years old, you are accessing the Services with the consent and supervision of a parent or legal guardian who agrees to be bound by these Terms; and
 - You are not prohibited from using the Services under applicable local or international laws.
 
-> **What this means:** You must be an adult or have parental consent to use Unloop. Parents managing shields or focus routines for children are responsible for the account and settings.
+> **What this means:** You must be an adult or have parental consent to use NextUp.
 
 ---
 
-### 2. Description of Services & iOS Framework Dependencies
-Unloop provides digital focus tools, automated schedules, location-based blocking (geofencing), and screen time management for iOS devices.
+### 2. Description of Services & Apple System Dependencies
+NextUp provides countdown and count-up timers, milestone tracking, pre-loaded curated dates, home/lock-screen widgets, an Apple Watch companion app, calendar event imports, and cross-device sync.
 
-Unloop integrates directly with native Apple system-level frameworks, including Apple’s Screen Time API (`FamilyControls` and `ManagedSettings`). You understand and agree that:
-- **Operating System Dependency:** Unloop’s blocking shields, schedules, and permission enforcement depend entirely on Apple Inc.’s iOS operating system, entitlements, and policies.
-- **OS Updates & Feature Modifications:** Future iOS updates, security patches, or changes in Apple developer policies may alter, interrupt, or disable specific functionalities outside our control. We do not guarantee uninterrupted functionality across all past or future iOS releases.
-- **On-Device Architecture:** In accordance with Apple’s Screen Time framework, web and app restrictions are processed locally on your device; Unloop does not inspect, collect, or store your private web browsing history or personal app usage data.
+NextUp integrates with native Apple system frameworks, including `WidgetKit`, `WatchKit`, `EventKit`, and Apple iCloud / CloudKit. You understand and agree that:
+- **Operating System & Framework Dependencies:** Widget refresh timing, background notifications, Apple Watch complication updates, and iCloud sync rely entirely on Apple Inc.’s iOS, iPadOS, and watchOS operating systems and system budgets.
+- **Widget & Complication Refresh Intervals:** Operating systems schedule widget and complication reloads dynamically based on device battery, memory, and usage patterns. We cannot guarantee real-time, instantaneous per-second widget refreshes when the device is locked or in background power-saving states.
+- **OS Updates:** Apple updates or policy modifications may alter, delay, or interrupt specific features outside our control. We do not guarantee uninterrupted operation across all past or future OS versions.
+- **On-Device Data Storage:** NextUp is built local-first. Your countdown titles, notes, and dates are stored on your device and, if enabled, synced through your personal Apple iCloud account. We do not maintain personal user accounts or host your event database on developer-owned servers.
 
-> **What this means:** Unloop runs on Apple's native Screen Time tools. Your private data stays safely on your device. If Apple updates iOS and changes how these tools work, features may need adjustments.
-
----
-
-### 3. Third-Party NFC Tags & Hardware Disclaimer
-Unloop includes optional physical triggers, such as "NFC Tap-to-Lock" and designated physical "Master Keys" for unlocking focus sessions.
-
-- **No First-Party Hardware:** Unloop is a software-only application. We do not manufacture, distribute, or sell physical NFC tags, tokens, cards, or stickers.
-- **Generic & Standard NFC Tag Use:** Unloop is built to interact with standard, generic third-party NFC tags (such as standard NTAG-compliant stickers, discs, cards, or compatible NFC-enabled figures).
-- **No Compatibility Warranty:** Because third-party NFC tags vary significantly in manufacturing quality, chip type, frequency tuning, antenna surface area, and casing, **we do not warrant, represent, or guarantee that all generic or third-party NFC tags will be compatible with, detected by, or function reliably with Unloop.**
-- **Hardware Limitations:** Scan range and reliability depend heavily on your specific iPhone model, antenna placement, and case thickness. You are solely responsible for sourcing, testing, and maintaining your own physical NFC tags.
-
-> **What this means:** You bring your own standard NFC tags or stickers. Because there are countless brands and chip types available, we cannot promise every single tag or accessory will scan properly with your iPhone.
+> **What this means:** NextUp uses Apple’s native tools to display widgets, sync to your Apple Watch, and back up through iCloud. System limitations like low-power modes can occasionally throttle background widget updates.
 
 ---
 
-### 4. Automated Schedules and Location Zones (Geofencing)
-Unloop offers automated focus routines triggered by time schedules or physical locations (e.g., libraries, offices, or study zones).
-- **Location Services:** Geofenced boundaries rely on iOS CoreLocation services, GPS, cellular signals, and Wi-Fi networks. Accuracy may vary based on environmental factors, low-power modes, or device signal reception.
-- **No Strict Liability for Missed Triggers:** While Unloop initiates shielding routines based on background triggers, we are not responsible for any productivity disruptions, missed routine triggers, or unintended app blocks resulting from delayed background execution or operating system throttles.
+### 3. Advertising (Google AdMob) & Data Processing Disclosure
+The free version of NextUp is supported by advertisements served by **Google AdMob**. NextUp Pro subscribers receive a 100% ad-free experience.
 
-> **What this means:** Location-based blocking relies on your iPhone's GPS and network signals. Weak signals or battery-saving modes can sometimes cause slight delays when entering or exiting a focus zone.
+- **AdMob Service Integration:** When using the free tier of the app, Google AdMob displays banner, interstitial, or promotional ad units.
+- **Data Collection by Google AdMob:** While **NextUp does not collect, sell, or store your personal identity, browsing history, or countdown data**, third-party advertising partners—specifically Google LLC / AdMob—may collect, process, and use device-level data to deliver, personalize, and measure ads. This data may include:
+  - Mobile Advertising Identifiers (such as Apple's IDFA, subject to your App Tracking Transparency settings).
+  - Device information (model, OS version, carrier, network connection).
+  - Coarse location derived from IP address.
+  - Ad interaction metrics (impressions, clicks, diagnostic crash logs).
+- **AdMob Policies and Terms:** By using the ad-supported version of NextUp, you acknowledge and agree that ad delivery is governed by Google’s terms and privacy policies:
+  - [Google Terms of Service](https://policies.google.com/terms)
+  - [Google Privacy Policy](https://policies.google.com/privacy)
+  - [Google AdMob & Partner Site Data Policy](https://policies.google.com/technologies/partner-sites)
+  - [Google Ads Terms & Policies](https://policies.google.com/technologies/ads)
+- **Ad-Tracking Controls:** You can control personalized advertising permissions at any time through your iOS device settings under **Settings > Privacy & Security > Tracking** or via [Google My Ad Center](https://myadcenter.google.com/).
+
+> **What this means:** The free tier shows ads via Google AdMob. We don't store your personal ad data, but Google may collect standard technical and ad-performance device identifiers as outlined in Google's privacy policies. You can remove all ads at any time by upgrading to NextUp Pro.
+
+---
+
+### 4. Apple Calendar Integration & Curated Catalogs
+- **Apple Calendar Access:** NextUp allows you to optionally import events from Apple Calendar using Apple’s native `EventKit` framework. This read-only integration happens strictly on-device. NextUp never transmits, copies, or uploads your calendar contents to external developer servers.
+- **Curated & Pre-Loaded Dates:** NextUp may provide optional pre-loaded public milestone dates (e.g., sports tournaments, entertainment releases, national holidays). While we endeavor to keep curated catalog dates accurate, schedules and official event dates may change. We do not guarantee the completeness, timeliness, or accuracy of third-party public dates and are not liable for external event postponements or cancellations.
+
+> **What this means:** Calendar imports remain strictly on your iPhone. Pre-loaded public dates are provided for convenience, but you should always verify official event dates for important travel or tickets.
 
 ---
 
 ### 5. In-App Purchases, Subscriptions, and Billing
-Any paid tiers, lifetime access options, or auto-renewing subscriptions offered through Unloop are processed through Apple In-App Purchases using your Apple ID:
-- **Auto-Renewal:** Subscriptions automatically renew at the end of each billing cycle unless canceled at least 24 hours prior to the renewal date.
-- **Managing Subscriptions:** You can adjust or cancel your subscription at any time within your iOS device settings (**Settings > Apple ID > Subscriptions**).
-- **Refund Policy:** All transactions and refunds are governed strictly by Apple Media Services Terms and Conditions. We do not handle your billing data and cannot process refunds directly.
+NextUp offers optional premium features through **NextUp Pro** (such as unlimited custom reminders, full multi-event widget previews, Apple Calendar sync, and a 100% ad-free experience) available as one-time lifetime purchases or auto-renewing subscriptions processed directly via Apple In-App Purchases:
+- **Billing & Auto-Renewal:** Subscriptions automatically renew at the end of each billing cycle unless canceled at least 24 hours prior to the current cycle's renewal date.
+- **Managing Purchases:** You can manage, modify, or cancel your active subscriptions at any time within your Apple Account settings (**Settings > Apple ID > Subscriptions**).
+- **Refund Policy:** All transactions, billing inquiries, and refund requests are handled exclusively by Apple according to the Apple Media Services Terms and Conditions. We do not have access to your payment credentials and cannot process refunds directly.
 
-> **What this means:** Purchases and subscriptions are managed securely by Apple. To cancel or request a refund, use your iPhone's Apple ID settings menu.
+> **What this means:** Upgrades and payments are securely processed by Apple. To cancel a subscription or request a refund, manage it through your Apple ID settings.
 
 ---
 
 ### 6. Acceptable Use & App Integrity
 You agree not to:
-- Decompile, reverse engineer, decrypt, or attempt to derive the source code of the Unloop application.
-- Emulate, spoof, or inject malicious payloads into NFC scans or Screen Time API triggers to exploit or disable the application improperly.
-- Commercially resell, redistribute, or sublicense Unloop.
-- Use Unloop for any unlawful, deceptive, or abusive activity.
+- Decompile, reverse engineer, disassemble, decrypt, or attempt to extract the source code or proprietary assets of NextUp.
+- Circumvent, manipulate, or tamper with in-app purchase verifications, ad-delivery mechanisms, or licensing systems.
+- Use NextUp for any unlawful, deceptive, or abusive activity.
+- Commercially redistribute, sublicense, lease, or resell the application or its bundled assets.
 
-> **What this means:** Please use Unloop fairly and as intended. Don't attempt to reverse engineer the code, break the security features, or redistribute our software.
+> **What this means:** Use NextUp as intended. Do not attempt to reverse engineer the app, block ad networks improperly without Pro, or redistribute our software.
 
 ---
 
-### 7. Emergency Communications & Critical Safety Disclaimer
-**UNLOOP IS NOT A LIFE-SAFETY APPLICATION.**
+### 7. Critical Scheduling & Life-Safety Disclaimer
+**NEXTUP IS A PERSONAL PRODUCTIVITY AND COUNTDOWN UTILITY, NOT A LIFE-SAFETY OR MISSION-CRITICAL SCHEDULING SYSTEM.**
 
-Unloop does not, and will never, block emergency calls (such as 911 or your local emergency dispatchers). You agree never to configure Unloop’s app shields, focus modes, or physical Master Key routines in a way that impedes your immediate access to life-preserving healthcare devices, medical management apps, or urgent communication channels during an emergency.
+NextUp relies on local iOS device notifications, widget timelines, and background fetch mechanisms that can be affected by device power states, Focus filters, battery saver modes, and operating system throttles. You agree never to rely solely on NextUp for life-critical appointments, time-sensitive medical administrations, critical flight departure confirmations, or emergency schedules.
 
-> **What this means:** Unloop never blocks 911 or emergency services. Never lock yourself out of vital medical or critical emergency tools.
+> **What this means:** Don't rely exclusively on countdown widgets for critical life events like medical doses or flight gates. Always check your primary carrier, calendar, or alarm systems.
 
 ---
 
 ### 8. Warranty Disclaimer & Limitation of Liability
 TO THE MAXIMUM EXTENT PERMITTED UNDER APPLICABLE LAW:
-- UNLOOP AND ITS SERVICES ARE PROVIDED ON AN **“AS IS”** AND **“AS AVAILABLE”** BASIS WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS, IMPLIED, OR STATUTORY.
-- WE EXPRESSLY DISCLAIM ALL WARRANTIES REGARDING ACCURACY, RELIABILITY, FITNESS FOR A PARTICULAR PURPOSE, OPERATIONAL UPTIME, OR THIRD-PARTY NFC TAG COMPATIBILITY.
-- UNDER NO CIRCUMSTANCES SHALL UNLOOP, ITS OWNERS, DIRECTORS, OR DEVELOPERS BE LIABLE FOR ANY INCIDENTAL, SPECIAL, INDIRECT, OR CONSEQUENTIAL DAMAGES WHATSOEVER, INCLUDING LOSS OF TIME, MISSED COMMUNICATIONS, OR HARDWARE EXPENSES ARISING FROM YOUR USE OF THE SERVICES.
+- NEXTUP AND ALL SERVICES ARE PROVIDED ON AN **“AS IS”** AND **“AS AVAILABLE”** BASIS WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS, IMPLIED, OR STATUTORY.
+- WE EXPRESSLY DISCLAIM ALL WARRANTIES REGARDING ACCURACY, TIMELINESS, OPERATIONAL UPTIME, WIDGET REFRESH CADENCE, ICLOUD SYNC RELIABILITY, OR ERROR-FREE PERFORMANCE.
+- UNDER NO CIRCUMSTANCES SHALL NEXTUP, ITS DEVELOPERS, OWNERS, OR AFFILIATES BE LIABLE FOR ANY INCIDENTAL, SPECIAL, INDIRECT, OR CONSEQUENTIAL DAMAGES WHATSOEVER, INCLUDING LOSS OF DATA, MISSED DEADLINES OR EVENTS, OR DEVICE MALFUNCTIONS ARISING FROM YOUR USE OF THE SERVICES.
 
-> **What this means:** We build Unloop to be as stable and effective as possible, but we provide it without warranties, and our legal liability is limited to the extent permitted by law.
+> **What this means:** We work hard to build a polished, reliable countdown utility, but we provide it without warranties, and our legal liability is limited to the extent permitted by law.
 
 ---
 
 ### 9. Dispute Resolution & Binding Arbitration
 *(Applies to users located in the United States)*
-- **Informal Review:** Before filing a formal claim, you agree to contact us at [Email](mailto:rays-mouse01@icloud.com) to pursue a prompt, good-faith informal resolution.
-- **Arbitration:** Any unresolved dispute arising out of these Terms or the use of Unloop shall be settled through confidential, individual binding arbitration administered by the American Arbitration Association (AAA), rather than in court.
-- **Class Action Waiver:** All claims must be brought in an individual capacity, and not as a plaintiff or class member in any purported class, consolidated, or representative proceeding.
+- **Informal Resolution:** Before initiating a formal dispute, you agree to contact us at [rays-mouse01@icloud.com](mailto:rays-mouse01@icloud.com) to attempt to resolve the issue informally in good faith.
+- **Binding Arbitration:** Any unresolved controversy or claim arising out of or relating to these Terms or NextUp shall be settled through confidential, individual binding arbitration administered by the American Arbitration Association (AAA) under its Consumer Arbitration Rules.
+- **Class Action Waiver:** You and NextUp agree that all claims must be brought solely in an individual capacity and not as a plaintiff or class member in any purported class, collective, or representative proceeding.
 
-> **What this means:** If an issue arises that we cannot resolve together, we agree to settle it through private, individual arbitration rather than court lawsuits or class actions.
+> **What this means:** If a legal dispute arises that cannot be settled amicably, we agree to resolve it through individual private arbitration rather than class actions or court trials.
 
 ---
 
 ### 10. Apple App Store Legal Terms
-Because you acquired Unloop from the Apple App Store, you acknowledge that:
-- These Terms are concluded solely between you and Unloop, not Apple Inc.
-- Apple has no obligation to furnish maintenance or support services for Unloop.
-- In the event of any failure of the app to conform to any applicable warranty, you may notify Apple for a refund of the purchase price; Apple holds no further warranty obligation under applicable law.
-- Apple and its subsidiaries are third-party beneficiaries of these Terms and have the right to enforce them against you.
+Because you acquired NextUp via the Apple App Store, you acknowledge and agree that:
+- These Terms are concluded solely between you and NextUp, not Apple Inc.
+- Apple has no obligation whatsoever to furnish maintenance or technical support services for NextUp.
+- In the event of any failure of the app to conform to any applicable warranty, you may notify Apple for a refund of the purchase price; to the maximum extent permitted by applicable law, Apple has no other warranty obligation whatsoever.
+- Apple and Apple’s subsidiaries are third-party beneficiaries of these Terms. Upon your acceptance, Apple has the right to enforce these Terms against you as a third-party beneficiary.
 
 ---
 
-### 11. Contact Us
-For questions, support, or legal inquiries concerning these Terms of Service, contact:
+### 11. Contact Information
+If you have questions, feedback, or legal inquiries regarding these Terms of Service, please contact:
 
-* **App:** Unloop
-* **Email:** [Email](mailto:rays-mouse01@icloud.com)
+* **App:** NextUp: Big Day Countdown
 * **Developer:** Jose Duran
+* **Email:** [rays-mouse01@icloud.com](mailto:rays-mouse01@icloud.com)
+* **Location:** Mercer Island, WA, USA
