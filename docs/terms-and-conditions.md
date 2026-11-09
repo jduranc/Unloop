@@ -123,5 +123,5 @@ If you have questions, feedback, or legal inquiries regarding these Terms of Ser
 
 * **App:** NextUp: Big Day Countdown
 * **Developer:** Jose Duran
-* **Email:** [rays-mouse01@icloud.com](mailto:rays-mouse01@icloud.com)
+* [Email](mailto:rays-mouse01@icloud.com)
 * **Location:** Mercer Island, WA, USA
